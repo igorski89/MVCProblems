@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9EA292E145DD463000C325F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA292D145DD463000C325F /* UIKit.framework */; };
+		A9EA2930145DD463000C325F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA292F145DD463000C325F /* Foundation.framework */; };
+		A9EA2932145DD463000C325F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA2931145DD463000C325F /* CoreGraphics.framework */; };
+		A9EA2938145DD463000C325F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9EA2936145DD463000C325F /* InfoPlist.strings */; };
+		A9EA293A145DD463000C325F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA2939145DD463000C325F /* main.m */; };
+		A9EA293E145DD463000C325F /* IEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA293D145DD463000C325F /* IEAppDelegate.m */; };
+		A9EA2946145DD497000C325F /* IEProblemsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA2945145DD497000C325F /* IEProblemsController.m */; };
+		A9EA2948145DD4C1000C325F /* IEProblemsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9EA2947145DD4C1000C325F /* IEProblemsView.xib */; };
+		A9EA294B145DD57E000C325F /* IEProblemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA294A145DD57E000C325F /* IEProblemsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9EA2929145DD463000C325F /* MVCProblems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCProblems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA292D145DD463000C325F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9EA292F145DD463000C325F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9EA2931145DD463000C325F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9EA2935145DD463000C325F /* MVCProblems-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVCProblems-Info.plist"; sourceTree = "<group>"; };
+		A9EA2937145DD463000C325F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9EA2939145DD463000C325F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9EA293B145DD463000C325F /* MVCProblems-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVCProblems-Prefix.pch"; sourceTree = "<group>"; };
+		A9EA293C145DD463000C325F /* IEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEAppDelegate.h; sourceTree = "<group>"; };
+		A9EA293D145DD463000C325F /* IEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IEAppDelegate.m; sourceTree = "<group>"; };
+		A9EA2944145DD497000C325F /* IEProblemsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEProblemsController.h; sourceTree = "<group>"; };
+		A9EA2945145DD497000C325F /* IEProblemsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEProblemsController.m; sourceTree = "<group>"; };
+		A9EA2947145DD4C1000C325F /* IEProblemsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IEProblemsView.xib; sourceTree = "<group>"; };
+		A9EA2949145DD57E000C325F /* IEProblemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEProblemsView.h; sourceTree = "<group>"; };
+		A9EA294A145DD57E000C325F /* IEProblemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEProblemsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9EA2926145DD463000C325F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA292E145DD463000C325F /* UIKit.framework in Frameworks */,
+				A9EA2930145DD463000C325F /* Foundation.framework in Frameworks */,
+				A9EA2932145DD463000C325F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9EA291E145DD463000C325F = {
+			isa = PBXGroup;
+			children = (
+				A9EA2933145DD463000C325F /* MVCProblems */,
+				A9EA292C145DD463000C325F /* Frameworks */,
+				A9EA292A145DD463000C325F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9EA292A145DD463000C325F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA2929145DD463000C325F /* MVCProblems.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9EA292C145DD463000C325F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA292D145DD463000C325F /* UIKit.framework */,
+				A9EA292F145DD463000C325F /* Foundation.framework */,
+				A9EA2931145DD463000C325F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9EA2933145DD463000C325F /* MVCProblems */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA293C145DD463000C325F /* IEAppDelegate.h */,
+				A9EA293D145DD463000C325F /* IEAppDelegate.m */,
+				A9EA2944145DD497000C325F /* IEProblemsController.h */,
+				A9EA2945145DD497000C325F /* IEProblemsController.m */,
+				A9EA2947145DD4C1000C325F /* IEProblemsView.xib */,
+				A9EA2949145DD57E000C325F /* IEProblemsView.h */,
+				A9EA294A145DD57E000C325F /* IEProblemsView.m */,
+				A9EA2934145DD463000C325F /* Supporting Files */,
+			);
+			path = MVCProblems;
+			sourceTree = "<group>";
+		};
+		A9EA2934145DD463000C325F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA2935145DD463000C325F /* MVCProblems-Info.plist */,
+				A9EA2936145DD463000C325F /* InfoPlist.strings */,
+				A9EA2939145DD463000C325F /* main.m */,
+				A9EA293B145DD463000C325F /* MVCProblems-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9EA2928145DD463000C325F /* MVCProblems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA2941145DD463000C325F /* Build configuration list for PBXNativeTarget "MVCProblems" */;
+			buildPhases = (
+				A9EA2925145DD463000C325F /* Sources */,
+				A9EA2926145DD463000C325F /* Frameworks */,
+				A9EA2927145DD463000C325F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVCProblems;
+			productName = MVCProblems;
+			productReference = A9EA2929145DD463000C325F /* MVCProblems.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9EA2920145DD463000C325F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A9EA2923145DD463000C325F /* Build configuration list for PBXProject "MVCProblems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9EA291E145DD463000C325F;
+			productRefGroup = A9EA292A145DD463000C325F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9EA2928145DD463000C325F /* MVCProblems */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9EA2927145DD463000C325F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA2938145DD463000C325F /* InfoPlist.strings in Resources */,
+				A9EA2948145DD4C1000C325F /* IEProblemsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9EA2925145DD463000C325F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA293A145DD463000C325F /* main.m in Sources */,
+				A9EA293E145DD463000C325F /* IEAppDelegate.m in Sources */,
+				A9EA2946145DD497000C325F /* IEProblemsController.m in Sources */,
+				A9EA294B145DD57E000C325F /* IEProblemsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9EA2936145DD463000C325F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA2937145DD463000C325F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9EA293F145DD463000C325F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9EA2940145DD463000C325F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9EA2942145DD463000C325F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCProblems/MVCProblems-Prefix.pch";
+				INFOPLIST_FILE = "MVCProblems/MVCProblems-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9EA2943145DD463000C325F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCProblems/MVCProblems-Prefix.pch";
+				INFOPLIST_FILE = "MVCProblems/MVCProblems-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9EA2923145DD463000C325F /* Build configuration list for PBXProject "MVCProblems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA293F145DD463000C325F /* Debug */,
+				A9EA2940145DD463000C325F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9EA2941145DD463000C325F /* Build configuration list for PBXNativeTarget "MVCProblems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA2942145DD463000C325F /* Debug */,
+				A9EA2943145DD463000C325F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9EA2920145DD463000C325F /* Project object */;
+}
